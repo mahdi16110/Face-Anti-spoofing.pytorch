@@ -313,5 +313,5 @@ def train(device, net, train_loader, criterion_depth, criterion_class, optimizer
                 epoch, i, loss_depth.data.cpu().numpy(), losses_depth.avg.cpu().numpy(), loss_class.data.cpu().numpy(), losses_class.avg.cpu().numpy()))
 
 
-if __name__ == '__main__':
-    main(parser.parse_args())
+#if __name__ == '__main__':
+   # main(parser.parse_args())
